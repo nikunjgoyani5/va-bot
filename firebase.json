@@ -1,0 +1,30 @@
+{
+  "flutter": {
+    "platforms": {
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "va-bot-676b4",
+          "configurations": {
+            "macos": "1:535893546108:ios:816e4bc4e4fae82aa9e5f9",
+            "web": "1:535893546108:web:7e1337924e7ba598a9e5f9",
+            "windows": "1:535893546108:web:e802c715f6e7513ca9e5f9"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
